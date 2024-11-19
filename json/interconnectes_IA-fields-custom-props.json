@@ -1,0 +1,112 @@
+{
+  "fields": [
+    {
+      "name": "coll_nom"
+    },
+    {
+      "name": "nom_projet"
+    },
+    {
+      "name": "coll_siret"
+    },
+    {
+      "name": "coll_type",
+      "subtype": "tags"
+    },
+    {
+      "name": "projet_date"
+    },
+    {
+      "name": "projet_status",
+      "subtype": "tags"
+    },
+    {
+      "name": "status_abandon"
+    },
+    {
+      "name": "partenaires"
+    },
+    {
+      "name": "projet_contact",
+      "subtype": ""
+    },
+    {
+      "name": "usage_service"
+    },
+    {
+      "name": "theme",
+      "subtype": "tags"
+    },
+    {
+      "name": "sous_theme",
+      "subtype": "tags"
+    },
+    {
+      "name": "cible_service",
+      "subtype": "tags"
+    },
+    {
+      "name": "risque"
+    },
+    {
+      "name": "risque_categorie",
+      "subtype": "tags"
+    },
+    {
+      "name": "proportionalite"
+    },
+    {
+      "name": "decision"
+    },
+    {
+      "name": "audience_decision"
+    },
+    {
+      "name": "herbergement"
+    },
+    {
+      "name": "nom_algorithme"
+    },
+    {
+      "name": "description"
+    },
+    {
+      "name": "usage_algorithme"
+    },
+    {
+      "name": "impact_algorithme"
+    },
+    {
+      "name": "automatisation_decision",
+      "subtype": "tags"
+    },
+    {
+      "name": "operations"
+    },
+    {
+      "name": "type_algorithme",
+      "subtype": "tags"
+    },
+    {
+      "name": "donnees_source"
+    },
+    {
+      "name": "donnees_collecte"
+    },
+    {
+      "name": "monitoring_biais"
+    },
+    {
+      "name": "monitoring_impact"
+    },
+    {
+      "name": "reversibilite"
+    },
+    {
+      "name": "objection"
+    },
+    {
+      "name": "date"
+    }
+  ]
+}
