@@ -2,7 +2,7 @@
 /venv
 
 # Mac OS
-# .DS_Store
+.DS_Store
 
 # virtual env
 /csv/geocoding_temp
