@@ -33,15 +33,14 @@
       "description": "Commune, EPCI, département, région, syndicat mixte, opérateur",
       "type": "string",
       "constraints": {
-        "required": true,
-        "enum": []
+        "required": true
       }
     },
     {
       "name": "projet_date",
       "title": "Date de démarrage du projet",
       "description": "Date de démarrage du projet (JJ/MM/AAAA) ou (MM/AAAA)",
-      "type": "date",
+      "type": "string",
       "constraints": {
         "required": true
       }
@@ -52,8 +51,7 @@
       "description": "Sélectionner un item : en réflexion, en construction, POC, en déploiement, terminée, abandonné",
       "type": "string",
       "constraints": {
-        "required": true,
-        "enum": []
+        "required": true
       }
     },
     {
@@ -95,8 +93,7 @@
       "description": "quelle grande politique publique est adressée par ce cas d'usages (voir thèmes BDT)",
       "type": "string",
       "constraints": {
-        "required": true,
-        "enum": []
+        "required": true
       }
     },
     {
@@ -105,7 +102,6 @@
       "description": "sélectionner un ou deux items dans la liste proposée (voir sous-thèmes BDT)",
       "type": "string",
       "constraints": {
-        "enum": []
       }
     },
     {
@@ -114,8 +110,7 @@
       "description": "grand public, bénéficiaire, agent, association, élu, entreprises, collectivités, établissement scolaire, établissement santé",
       "type": "string",
       "constraints": {
-        "required": true,
-        "enum": []
+        "required": true
       }
     },
     {
@@ -218,8 +213,7 @@
       "description": "Machine Learning, Traitement Automatique du langage, IA générative, Computer vision, Réseaux de neurones",
       "type": "string",
       "constraints": {
-        "required": true,
-        "enum": []
+        "required": true
       }
     },
     {
@@ -271,7 +265,7 @@
       "name": "date",
       "title": "Date de mise à jour des informations",
       "description": "date de mise à jour des informations (JJ/MM/AAAA)",
-      "type": "date",
+      "type": "string",
       "constraints": {
         "required": true
       }

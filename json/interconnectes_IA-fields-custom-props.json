@@ -11,46 +11,60 @@
     },
     {
       "name": "coll_type",
-      "subtype": "tags"
+      "subtype": "tag",
+      "bgColor": "#00adb8"
     },
     {
       "name": "projet_date"
     },
     {
       "name": "projet_status",
-      "subtype": "tags"
+      "subtype": "tags",
+      "bgColor": "#00adb8",
+      "separator": ","
     },
     {
       "name": "status_abandon"
     },
     {
-      "name": "partenaires"
+      "name": "partenaires",
+      "subtype": "tags",
+      "bgColor": "#00adb8",
+      "separator": ","
     },
     {
       "name": "projet_contact",
-      "subtype": ""
+      "subtype": "email"
     },
     {
       "name": "usage_service"
     },
     {
       "name": "theme",
-      "subtype": "tags"
+      "subtype": "tags",
+      "bgColor": "#00adb8",
+      "separator": ","
     },
     {
       "name": "sous_theme",
-      "subtype": "tags"
+      "subtype": "tags",
+      "bgColor": "#00adb8",
+      "separator": ","
     },
     {
       "name": "cible_service",
-      "subtype": "tags"
+      "subtype": "tags",
+      "bgColor": "#00adb8",
+      "separator": ","
     },
     {
       "name": "risque"
     },
     {
       "name": "risque_categorie",
-      "subtype": "tags"
+      "subtype": "tags",
+      "bgColor": "#00adb8",
+      "separator": ","
     },
     {
       "name": "proportionalite"
@@ -78,14 +92,16 @@
     },
     {
       "name": "automatisation_decision",
-      "subtype": "tags"
+      "subtype": "tag",
+      "bgColor": "#00adb8"
     },
     {
       "name": "operations"
     },
     {
       "name": "type_algorithme",
-      "subtype": "tags"
+      "subtype": "tag",
+      "bgColor": "#00adb8"
     },
     {
       "name": "donnees_source"
