@@ -19,6 +19,10 @@ The solution proposed and implemented here is based on an open source project su
 <!-- - Demo html page: [![Netlify Status](https://api.netlify.com/api/v1/badges/ac24c6a6-9abd-4e5a-bdcb-688c525840aa/deploy-status)](https://app.netlify.com/sites/datami-demo-ping-tiers-lieux/deploys)
 - demo url: https://datami-demo-ping-tiers-lieux.netlify.app -->
 
+![screenshot-001](./images/screenshots/screenshot-2024-11-22-001.png)
+
+![screenshot-002](./images/screenshots/screenshot-2024-11-22-002.png)
+
 ---
 
 ## To go further
