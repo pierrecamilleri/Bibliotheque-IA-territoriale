@@ -23,7 +23,6 @@ Un travail collectif, regroupant plusieurs agents et élus de collectivités ter
 
 ## A propos des Interconnectés 
 *Les Interconnectés est la première association nationale de collectivités centrée sur les politiques publiques numériques. Créée en 2009 par Intercommunalités de France et France urbaine, sa mission est d’accompagner les collectivités locales et leurs groupements pour mettre l’innovation et le numérique au service des territoires. Elle est aussi un interlocuteur de référence de l’État. Elle mobilise différents acteurs afin de faire émerger des solutions concrètes fondées sur le partage, l’intelligence collective et la proximité de l’usager.
-![image](https://github.com/user-attachments/assets/41f6009b-8053-41b6-8650-ddbb2d7b995c)
 
 ## Demo
 
