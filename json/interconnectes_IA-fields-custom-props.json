@@ -29,7 +29,7 @@
       "name": "partenaires",
       "subtype": "tags",
       "bgColor": "#00adb8",
-      "separator": ","
+      "separator": "-"
     },
     {
       "name": "projet_contact",
@@ -63,14 +63,14 @@
       "name": "sous_theme",
       "subtype": "tags",
       "bgColor": "#00adb8",
-      "separator": ","
+      "separator": "-"
     },
 
     {
       "name": "audience_service",
       "subtype": "tags",
       "bgColor": "#00adb8",
-      "separator": ","
+      "separator": "-"
     },
     {
       "name": "herbergement",
@@ -90,7 +90,7 @@
       "name": "type_algorithme",
       "subtype": "tags",
       "bgColor": "#00adb8",
-      "separator": ","
+      "separator": "-"
     },
     {
       "name": "impact_environnement"
@@ -99,13 +99,13 @@
       "name": "donnees_source",
       "subtype": "tags",
       "bgColor": "#00adb8",
-      "separator": ","
+      "separator": "-"
     },
     {
       "name": "donnees_acces",
       "subtype": "tags",
       "bgColor": "#00adb8",
-      "separator": ","
+      "separator": "-"
     },
     {
       "name": "risque"
@@ -131,13 +131,6 @@
       "subtype": "tag",
       "bgColor": "#00adb8"
     },
-
-
-
-
-
-
-    
     {
       "name": "reversibilite"
     },
