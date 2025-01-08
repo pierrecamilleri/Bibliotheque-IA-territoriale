@@ -1,3 +1,46 @@
+CHAMPS PUBLICS 
+coll_nom
+nom_projet
+coll_siret
+coll_type
+projet_date
+projet_status
+status_abandon
+partenaires
+projet_contact
+financement
+budget
+usage_description
+mise_en_oeuvre
+theme
+sous_theme
+audience_service
+url_infos
+image_url
+date
+
+
+CHAMPS RESTREINTS
+projet_contact
+financement
+budget
+usage_description
+mise_en_oeuvre
+theme
+sous_theme
+audience_service
+herbergement
+nom_algorithme
+algorithme_description
+algorithme_operations
+type_algorithme
+impact_environnement
+donnees_source
+donnees_acces
+url_ressources
+
+
+
 LES PROJETS DOCUMENTES ICI SONT FICTIFS ET SERVENT A L'ELABORATION D'UN TRAVAIL EN COURS. 
 
 Face à l’accélération des usages de l’IA et la diffusion massive de ces outils dans la vie publique, la commission numérique commune aux Interconnectés*, France urbaine et Intercommunalités de France s’est engagée en juillet 2023 à déployer la stratégie des « Intelligences Associées des territoires ». Elle vise à inscrire l’IA dans les exigences d’un numérique responsable.
