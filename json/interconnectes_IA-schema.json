@@ -159,7 +159,17 @@
       "description": "sélectionner un ou deux items dans la liste proposée (voir sous-thèmes BDT)",
       "type": "string",
       "constraints": {
-        "enum": []
+        "enum": [
+          "Déchets et économie circulaire",
+          "Santé et accès aux soins, Plateforme de données",
+          "Flux et trafic",
+          "Stationnement",
+          "Prévention et gestion des risques",
+          "Immobilier",
+          "Education",
+          "Biodiversité et préservation des espaces naturels",
+          "Santé et accès aux soins"
+        ]
       }
     },
     {
