@@ -346,6 +346,27 @@
       "type": "string"
     },
     {
+      "name" : "url_infos",
+      "title" : "URL information",
+      "description" : "Insérer un lien vers le projet (information ou accès au service)",
+      "type" : "string"
+    },
+    {
+      "name" : "url_ressources",
+      "title" : "URL ressource",
+      "description" : "Insérer un lien vers des ressources techniques (algorithme, base de donnée, modèle d'entraînement...)",
+      "type" : "string"
+    },
+    {
+      "name" : "image_url",
+      "title" : "image",
+      "description" : "Insérer le logo de la collectivité porteuse du projet",
+      "type" : "string",
+      "constraints" : { 
+        "required" : true
+      }
+    },
+    {
       "name": "date",
       "title": "Date de mise à jour des informations",
       "description": "date de mise à jour des informations (JJ/MM/AAAA)",

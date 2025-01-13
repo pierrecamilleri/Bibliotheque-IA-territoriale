@@ -138,6 +138,18 @@
       "name": "objection"
     },
     {
+      "name" : "url_infos",
+      "subtype": "link"
+    },
+    {
+      "name" : "url_ressources",
+      "subtype": "link"
+    },
+    {
+      "name" : "image_url",
+      "subtype": "link"
+    },
+    {
       "name": "date"
     }
   ]
