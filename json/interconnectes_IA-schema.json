@@ -37,10 +37,10 @@
         "enum": [
           "Commune",
           "EPCI",
-          "département",
-          "région",
-          "syndicat mixte",
-          "opérateur"
+          "Département",
+          "Région",
+          "Syndicat mixte",
+          "Opérateur"
         ]
       }
     },
