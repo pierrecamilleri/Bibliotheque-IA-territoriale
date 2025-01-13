@@ -147,7 +147,7 @@
     },
     {
       "name" : "image_url",
-      "subtype": "link"
+      "subtype": "image"
     },
     {
       "name": "date"
