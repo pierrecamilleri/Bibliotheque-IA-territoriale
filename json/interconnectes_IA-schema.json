@@ -181,15 +181,15 @@
       "constraints": {
         "required": true,
         "enum": [
-          "grand public", 
-          "bénéficiaire", 
-          "agent", 
-          "association", 
-          "élu", 
-          "entreprises", 
-          "collectivités", 
-          "établissement scolaire", 
-          "établissement santé"
+          "Grand public", 
+          "Bénéficiaire", 
+          "Agent", 
+          "Association", 
+          "Elu", 
+          "Entreprises", 
+          "Collectivités", 
+          "Etablissement scolaire", 
+          "Etablissement santé"
         ]
       }
     },
