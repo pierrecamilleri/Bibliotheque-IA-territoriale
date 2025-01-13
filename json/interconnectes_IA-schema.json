@@ -161,7 +161,8 @@
       "constraints": {
         "enum": [
           "Déchets et économie circulaire",
-          "Santé et accès aux soins, Plateforme de données",
+          "Santé et accès aux soins",
+          "Plateforme de données",
           "Flux et trafic",
           "Stationnement",
           "Prévention et gestion des risques",
