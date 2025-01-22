@@ -10,9 +10,6 @@
 - projet_status
 - status_abandon
 - partenaires
-- projet_contact
-- financement
-- budget
 - usage_description
 - mise_en_oeuvre
 - theme
@@ -31,7 +28,6 @@
 - mise_en_oeuvre
 - theme
 - sous_theme
-- audience_service
 - herbergement
 - nom_algorithme
 - algorithme_description
