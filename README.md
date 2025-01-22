@@ -3,6 +3,8 @@
 - coll_nom
 - nom_projet
 - coll_siret
+- longitude
+- latitude
 - coll_type
 - projet_date
 - projet_status
