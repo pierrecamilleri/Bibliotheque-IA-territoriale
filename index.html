@@ -24,7 +24,7 @@
 
       <!-- DATAMI WIDGET'S HTML BLOCK-->
       <datami-multi-files
-        title="TEST Bibliothèque IA - cas fictifs"
+        title="TEST Bibliothèque IA"
         options='{
           "display": "horizontal"
         }'
@@ -41,12 +41,14 @@
           },
           {
             "title": "Test Bibliothèque IA",
+            "onlypreview": true,
             "activate": true,
             "localdev": false,
             "DEPRECATED_gitfilelocal": "http://localhost:8810/statics/csv/202411-bibIA-testBDD.csv",
             "gitfilelocal": "http://localhost:8810/statics/csv/bdd-beta-bibIA-2025-01-13.csv",
             "DEPRECATED_gitfile": "https://github.com/LesInterconnectes/Bibliotheque-IA-territoriale/blob/main/csv/202411-bibIA-testBDD.csv",
-            "gitfile": "https://github.com/LesInterconnectes/Bibliotheque-IA-territoriale/blob/main/csv/bdd-beta-bibIA-2025-01-13.csv",
+            "DEPRECATED_BIS_gitfile": "https://github.com/LesInterconnectes/Bibliotheque-IA-territoriale/blob/main/csv/bdd-beta-bibIA-2025-01-13.csv",
+            "gitfile": "https://github.com/LesInterconnectes/Bibliotheque-IA-territoriale/blob/main/csv/processed_data.csv",
             "default-tab": true, 
             "options": {
               "height": "600px",
@@ -126,7 +128,8 @@
                   },
                   "coll_type": {
                     "position": "tags",
-                    "prefix": "Type de collectivité"
+                    "prefix": "Type de collectivité",
+                    "right": true
                   },
                   "theme": {
                     "position": "tags",
@@ -185,12 +188,12 @@
                   "theme": {
                     "position": "tags_middle",
                     "block_title": "Politique publique visée",
-                    "right": false
+                    "right": true
                   },
                   "sous_theme": {
                     "position": "tags_middle",
                     "block_title": "Sous-thèmes de politique publique visée",
-                    "right": false
+                    "right": true
                   },
                   "projet_status": {
                     "position": "tags",
@@ -199,17 +202,17 @@
                   },
                   "usage_description": {
                     "position": "infos",
-                    "block_title": "Description gobal du service et de ses usages"
+                    "block_title": "Description globale du service et de ses usages"
                   },
                   "coll_type": {
                     "position": "tags_top",
                     "block_title": "Type de collectivité",
-                    "right": false
+                    "right": true
                   },
                   "audience_service": {
                     "position": "tags_top",
                     "block_title": "Audience du service",
-                    "right": false
+                    "right": true
                   },
                   "risque": {
                     "position": "resume",
