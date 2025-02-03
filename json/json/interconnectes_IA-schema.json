@@ -1,0 +1,390 @@
+{
+  "fields": [
+    {
+      "name": "coll_nom",
+      "title": "Porteur",
+      "description": "Nom de la collectivité ou de l'organisation porteuse du projet",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "nom_projet",
+      "title": "Projet",
+      "description": "Nom du projet ou du service déployé",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "coll_siret",
+      "title": "Identifiant SIRET de la collectivité",
+      "description": "Identifiant du Système d’Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a adopté la délibération, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "coll_type",
+      "title": "Type de collectivité",
+      "description": "Commune, EPCI, département, région, syndicat mixte, opérateur",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Commune",
+          "EPCI",
+          "Département",
+          "Région",
+          "Syndicat mixte",
+          "Opérateur"
+        ]
+      }
+    },
+    {
+      "name": "projet_date",
+      "title": "Date de démarrage du projet",
+      "description": "Date de démarrage du projet (JJ/MM/AAAA) ou (MM/AAAA)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "projet_status",
+      "title": "Maturité",
+      "description": "Sélectionner un item : en réflexion, en construction, POC, en déploiement, terminée, abandonné",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "En expérimentation",
+          "En déploiement",
+          "Terminée", 
+          "Abandonné"
+        ]
+      }
+    },
+    {
+      "name": "status_abandon",
+      "title": "Description d'un projet abandonné",
+      "description": "Si échec du projet, expliquer les barrières",
+      "type": "string"
+    },
+    {
+      "name": "partenaires",
+      "title": "Partenaires associés",
+      "description": "Liste des autres partenaires académiques, experts, techniques, financeurs associés",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "projet_contact",
+      "title": "Contact du service en charge",
+      "description": "Indiquez l'email du contact ou du service en charge du service (DPO, etc.)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name" : "financement",
+      "title" : "Financement",
+      "description" : "Identifier le guichet de financement (interne, Fond vert, CRTE, France 2030, FEDER, DIAT, …)",
+      "type" : "string"
+    },
+    {
+      "name" : "budget",
+      "title" : "Budget",
+      "description" : "/an : moins de 50k€ , de 50k€ à 100k€,  plus de 100k€",
+      "type" : "string",
+      "constraints" : { 
+        "enum" : [ 
+          "moins de 50k€" , 
+          "de 50k€ à 100k€", 
+          "plus de 100k€"
+        ]
+      }
+    },
+    {
+      "name": "usage_description",
+      "title": "Description gobale du service et de ses usages",
+      "description": "A quoi sert ce service ? Quels bénéfices attendus ? ",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name" : "mise_en_oeuvre",
+      "title" : "Développement et mise en œuvre",
+      "description" : "Projet développé en interne, projet développé en externe, mobilisation de prestataire(s), marché public",
+      "type" : "string",
+      "constraints" : { 
+        "required" : true,
+        "enum" : [
+          "Projet développé en interne",
+          "projet développé en externe",
+          "mobilisation de prestataire(s)", 
+          "marché public"
+        ]
+      }
+    },
+    {
+      "name" : "theme",
+      "title" : "Thème principal ",
+      "description" : "quelle grande politique publique est adressée par ce cas d'usages (voir thèmes feuille2)",
+      "type" : "string",
+      "constraints" : { 
+        "required" : true,
+        "enum" : [ 
+          "Transition écologique",
+          "Attractivité et développement",
+          "Citoyenneté", 
+          "Santé et solidarité",
+          "Mobilité",
+          "Gouvernance et socles technologiques",
+          "Administration et organisation interne"
+        ]
+      }
+    },
+    {
+      "name": "sous_theme",
+      "title": "Sous-thèmes de politique publique visée",
+      "description": "sélectionner un ou deux items dans la liste proposée (voir sous-thèmes BDT)",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "Déchets et économie circulaire",
+          "Santé et accès aux soins",
+          "Plateforme de données",
+          "Flux et trafic",
+          "Stationnement",
+          "Prévention et gestion des risques",
+          "Immobilier",
+          "Education",
+          "Biodiversité et préservation des espaces naturels",
+          "Santé et accès aux soins"
+        ]
+      }
+    },
+    {
+      "name": "audience_service",
+      "title": "Audience du service",
+      "description": "grand public, bénéficiaire, agent, association, élu, entreprises, collectivités, établissement scolaire, établissement santé",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Grand public", 
+          "Bénéficiaire", 
+          "Agent", 
+          "Association", 
+          "Elu", 
+          "Entreprises", 
+          "Collectivités", 
+          "Etablissement scolaire", 
+          "Etablissement santé"
+        ]
+      }
+    },
+    {
+      "name": "herbergement",
+      "title": "Hébergement du service",
+      "description": "Indiquez comment sont hébergée les données : cloud chez un tiers, en interne de l'administration",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "cloud chez un tiers", 
+          "en interne de l'administration", 
+          "NSP"
+        ]
+      }
+    },
+    {
+      "name": "nom_algorithme",
+      "title": "Nom de l’algorithme",
+      "description": "S’il n’en a pas, indiquer la décision mise en oeuvre. Exemple : réservation et accès crèche.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "algorithme_description",
+      "title": "Description gobal de l'algorithme",
+      "description": "À quoi sert cet algorithme ? Quelles sont les tâches à accomplir?",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name" : "algorithme_operations",
+      "title" : "Opérations effectuées par l’algorithme",
+      "description" : "Donnez des détails sur les opérations techniques effectuées par l’algorithme. Cette catégorie peut être simple ou complexe, en fonction du type d’algorithme mobilisé.",
+      "type" : "string"
+    },
+    {
+      "name": "type_algorithme",
+      "title": "Type d'algorithme",
+      "description": "Machine Learning, Traitement Automatique du langage, IA générative, Computer vision, Réseaux de neurones",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Machine Learning", 
+          "Traitement Automatique du langage", 
+          "IA générative", 
+          "Computer vision", 
+          "Réseaux de neurones", 
+          "NSP"
+        ]
+      }
+    },
+    {
+      "name" : "impact_environnement",
+      "title" : "Evaluation de l'impact environnemental",
+      "description" : "Indiquez le score ou impact environnemental de l'algorithme (GreenAlgorithm)",
+      "type" : "string"
+    },
+    {
+      "name" : "donnees_source",
+      "title" : "Source des données",
+      "description" : "Qui fournit les données nécessaires à l'entraîment et à l'utilisation du modèle (l’usager, jeu de données interne, open data, données d'un tiers , NSP) ?",
+      "type" : "string",
+      "constraints" : { 
+        "required" : true,
+        "enum" : [ 
+          "usager", 
+          "jeu de données interne", 
+          "open data", 
+          "données d'un tiers", 
+          "NSP"
+        ] 
+      }
+    },
+    {
+      "name": "donnees_acces",
+      "title": "Mode de collecte des données traitées",
+      "description": "Comment les données sont‑elles initialement collectées et mise à jour ? Exemple : “par API, automatisée, par récupération manuelle, NSP”.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "par API", 
+          "automatisée", 
+          "par récupération manuelle", 
+          "NSP"
+        ]
+      }
+    },
+    {
+      "name": "risque",
+      "title": "Evaluation des risques",
+      "description": "Indiquez quelle évaluation des risques a été utilisée et donnez un aperçu des risques et des mesures d'atténuation. ",
+      "type": "string"
+    },
+    {
+      "name": "risque_categorie",
+      "title": "Type de risque",
+      "description": "Classification de la catégorie de risque pour cette utilisation de l'algorithme",
+      "type": "string",
+      "constraints": {
+        "required": false,
+        "enum": [
+          "risque minimal",
+          "risque limité",
+          "risque élevé",
+          "inacceptable"
+        ]
+      }
+    },
+    {
+      "name": "proportionalite",
+      "title": "Proportionnalité",
+      "description": "Expliquer pourquoi l'utilisation de l'algorithme est nécessaire. Évaluation du bénéfice par rapport à une solution alternative sans Intelligence Artificielle",
+      "type": "string"
+    },
+    {
+      "name" : "decision",
+      "title" : "Portée de la décision",
+      "description" : "Préciser si la décision a une portée externe (par exemple : pour un usager) ou concerne une procédure interne (par exemple : traitement de la mobilité des agents). Voir nombre de décisions",
+      "type" : "string"
+    },
+    {
+      "name" : "erreur",
+      "title" : "Efficacité du système d'IA",
+      "description" : "Ecart entre les objectifs attendus et les résultats du système d’IA - (faible) le système d’IA répond bien aux objectifs attendus - (moyen) le système d’IA répond partiellement aux objectifs attendus - (fort) le système d’IA ne répond pas aux objectifs attendus",
+      "type" : "string",
+      "constraints" : { 
+        "enum" : [ 
+          "faible", 
+          "moyen", 
+          "fort"
+        ] 
+      }
+    },
+    {
+      "name" : "explicabilite",
+      "title" : "Niveau d’explicabilité de l’algorithme",
+      "description" : "1- (faible) Facilement explicable au public - (moyen) Explicable mais complexe - (fort) Non explicable au public ",
+      "type" : "string",
+      "constraints" : { 
+        "enum" : [ 
+          "faible", 
+          "moyen", 
+          "fort"
+        ] 
+      }
+    },
+    {
+      "name": "reversibilite",
+      "title": "Réversibilité des traitements et des services",
+      "description": "Indiquez s'il est possible d'annuler complètement les effets de l'algorithme si nécessaire ? Que faut-il pour cela ?",
+      "type": "string"
+    },
+    {
+      "name": "objection",
+      "title": "Procédure d'objection",
+      "description": "Décrivez de quelle manière les personnes peuvent s'opposer à l'utilisation ou au résultat de l'algorithme.",
+      "type": "string"
+    },
+    {
+      "name" : "url_infos",
+      "title" : "URL information",
+      "description" : "Insérer un lien vers le projet (information ou accès au service)",
+      "type" : "string"
+    },
+    {
+      "name" : "url_ressources",
+      "title" : "URL ressource",
+      "description" : "Insérer un lien vers des ressources techniques (algorithme, base de donnée, modèle d'entraînement...)",
+      "type" : "string"
+    },
+    {
+      "name" : "image_url",
+      "title" : "image",
+      "description" : "Insérer le logo de la collectivité porteuse du projet",
+      "type" : "string",
+      "constraints" : { 
+        "required" : true
+      }
+    },
+    {
+      "name": "date",
+      "title": "Date de mise à jour des informations",
+      "description": "date de mise à jour des informations (JJ/MM/AAAA)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}
