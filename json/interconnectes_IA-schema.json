@@ -28,6 +28,18 @@
       }
     },
     {
+      "name": "latitude",
+      "title": "Latitude",
+      "description": "Latitude",
+      "type": "number"
+    },
+    {
+      "name": "longitude",
+      "title": "Longitude",
+      "description": "Longitude",
+      "type": "number"
+    },
+    {
       "name": "coll_type",
       "title": "Type de collectivité",
       "description": "Commune, EPCI, département, région, syndicat mixte, opérateur",
