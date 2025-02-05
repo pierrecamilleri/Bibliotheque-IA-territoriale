@@ -187,16 +187,8 @@
             "polygon_prop_id" : "code",
             "join_polygon_id_to_field"  : "DEP_CODE",
             "agregated_data_field"      : "coll_nom",
-            "fill_color": [
-              "interpolate",
-              ["linear"],
-              ["get", "coll_nom" ],
-              0,   "#fff",
-              1,  "#b2f1e7",
-              10,  "#4cdec9",
-              20, "#00a78e"
-            ],
-            "fill_opacity"        : 0.01,
+            "fill_color": "#fff",
+            "fill_opacity"        : 0.1,
             "fill_outline_color"  : "#004494",
 
             "has_popup" : false, 
