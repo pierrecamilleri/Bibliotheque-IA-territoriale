@@ -183,7 +183,7 @@
 
             "update_src_from_previous_layer" : false,
 
-            "need_aggregation" : true,
+            "need_aggregation" : false,
             "polygon_prop_id" : "code",
             "join_polygon_id_to_field"  : "DEP_CODE",
             "agregated_data_field"      : "count_com",
