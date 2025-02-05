@@ -22,10 +22,22 @@
       "name": "coll_siret",
       "title": "Identifiant SIRET de la collectivité",
       "description": "Identifiant du Système d’Identification du Répertoire des Etablissements (SIRET) de la collectivité qui a adopté la délibération, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant",
-      "type": "number",
+      "type": "string",
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "latitude",
+      "title": "Latitude",
+      "description": "Latitude",
+      "type": "number"
+    },
+    {
+      "name": "longitude",
+      "title": "Longitude",
+      "description": "Longitude",
+      "type": "number"
     },
     {
       "name": "coll_type",

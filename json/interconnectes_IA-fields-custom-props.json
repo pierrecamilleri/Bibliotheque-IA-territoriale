@@ -10,6 +10,12 @@
       "name": "coll_siret"
     },
     {
+      "name": "latitude"
+    },
+    {
+      "name": "longitude"
+    },
+    {
       "name": "coll_type",
       "subtype": "tag",
       "bgColor": "#00adb8"
