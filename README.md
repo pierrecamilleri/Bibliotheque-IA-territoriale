@@ -8,9 +8,6 @@
 - projet_status
 - status_abandon
 - partenaires
-- projet_contact
-- financement
-- budget
 - usage_description
 - mise_en_oeuvre
 - theme
@@ -62,15 +59,6 @@ Un travail collectif, regroupant plusieurs agents et élus de collectivités ter
 ## A propos des Interconnectés
 
 *Les Interconnectés est la première association nationale de collectivités centrée sur les politiques publiques numériques. Créée en 2009 par Intercommunalités de France et France urbaine, sa mission est d’accompagner les collectivités locales et leurs groupements pour mettre l’innovation et le numérique au service des territoires. Elle est aussi un interlocuteur de référence de l’État. Elle mobilise différents acteurs afin de faire émerger des solutions concrètes fondées sur le partage, l’intelligence collective et la proximité de l’usager.
-
-## Demo
-
-<!-- - Demo html page: [![Netlify Status](https://api.netlify.com/api/v1/badges/ac24c6a6-9abd-4e5a-bdcb-688c525840aa/deploy-status)](https://app.netlify.com/sites/datami-demo-ping-tiers-lieux/deploys)
-- demo url: https://datami-demo-ping-tiers-lieux.netlify.app -->
-
-![screenshot-001](./images/screenshots/screenshot-2024-11-22-001.png)
-
-![screenshot-002](./images/screenshots/screenshot-2024-11-22-002.png)
 
 ---
 
