@@ -54,7 +54,24 @@ Cette bibliothèque s’inscrit pleinement dans la feuille de route de la commis
 
 ## Méthodologie
 
-Un travail collectif, regroupant plusieurs agents et élus de collectivités territoriales, a permis de préciser les besoins et les usages de cette bibliothèque. Ensemble, un modèle de données visant à structurer la documentation des projets ayant recours à l’IA a été produit.  
+Un travail collectif, regroupant l’Ecolab du CGDD et la Banque des Territoires ainsi qu’un noyau d’agents et d’élus de collectivités territoriales, a permis de préciser les besoins et les usages de cette bibliothèque. 
+
+Un premier cahier des charges a été produit en 2023 pour anticiper les usages types et les rôles nécessaires au maintien de cette bibliothèque. Ensemble, nous avons ainsi élaboré au dernier trimestre 2024 un modèle de données visant à structurer la documentation des projets ayant recours à l’IA.
+
+Pour nourrir ce travail, nous avons croisé plusieurs travaux réglementaires mais aussi de recensement de projets d’IA territoriales que nous avons identifiés en France mais aussi à l’international. Aussi, dans une logique de convergence entre les ressources existantes, nous avons pris soin de reprendre des nomenclatures déjà utilisées par nos partenaires, à l’instar des critères d’identification des thèmes de cas d’usages notamment. 
+
+Les cas d’usages documentés s’articulent autour de 6 thématiques principales. 
+
+* Transformation écologique et énergétique
+* Attractivité et développement
+* Citoyenneté, santé, et solidarité
+* Mobilités
+* Gouvernance et socles technologiques
+* Administration et organisation interne
+
+
+En complément de déploiements de services ayant recours à l’IA et d’expérimentations, le sujet de l’IA s’installe avant tout pour les territoires dans les enjeux de gouvernance et d'évaluation de ces usages. Les collectivités territoriales sont nombreuses à développer, au-delà de critères d’évaluation et d’arbitrages techniques du recours à l’IA, des chartes et des stratégies IA/Data, qui viennent outiller les questions éthiques, juridiques et organisationnelles de ces usages. Cette bibliothèque d’IA territoriale permet aussi de les identifier et de les valoriser. 
+
 
 ## A propos des Interconnectés
 
