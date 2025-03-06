@@ -196,7 +196,7 @@
               10,  "#4cdec9",
               20, "#00a78e"
             ],
-            "fill_opacity"        : 0.25,
+            "fill_opacity"        : 0,
             "fill_outline_color"  : "#004494",
 
             "has_popup" : false, 
