@@ -1,28 +1,19 @@
-Face à l’accélération des usages de l’IA et la diffusion massive de ces outils dans la vie publique, la commission numérique commune aux Interconnectés*, France urbaine et Intercommunalités de France s’est engagée en juillet 2023 à déployer la stratégie des « Intelligences Associées des territoires ». Elle vise à inscrire l’IA dans les exigences d’un numérique responsable.
+Actuellement dans une phase d’expérimentation des usages de l’IA au service des politiques publiques, les collectivités territoriales souhaitent partager leurs expériences, les méthodes et les résultats de leurs projets. Pour limiter les effets induits et les coûts financier, technique mais aussi écologique du recours à l’IA, cette bibliothèque vise à partager ces projets et faciliter l’adoption de solutions éprouvées dans d’autres territoires.
 
-Trois orientations complémentaires sont alors développées. 
+## Collecte et partage des usages de l’IA par les collectivités
 
-- L’IA au service des politiques publiques ; cet axe vise au recensement et à la documentation des projets portées par les collectivités. L’association travaille au développement d’une bibliothèque d’IA territoriale et à l’animation d’une communauté d’acteurs en partenariat avec Ecolab.
+**Centraliser une première base nationale, commune, de l’IA au service de l’intérêt des territoires**
+Ce travail collectif conduit par un noyau d’agents et d’élus de collectivités territoriales et en collaboration étroite avec l’Ecolab du CGDD ainsi que la Banque des Territoires, permet de centraliser et d’identifier les projets en cours ou expérimentés par les territoires. Cette base commune facilite donc l’identification des offreurs de solutions, les ressources mobilisées, etc. Elle offre ainsi une vision de l’adoption des cas d’usages de l’IA par les collectivités.
 
-- IA éthique et vie publique ; l’objectif est de mettre en débat les conditions de déploiement de ces systèmes et de faire remonter les attentes, points de vigilances, propositions à l’échelle des territoires. L’association a lancé le 18 septembre 2024 les concertations territoriales de l’IA qui encouragent le débat local et permettront de consolider une vision nationale commune.
+**Animer une communauté active de praticiens**
+Cette ressource, pensée et construite sur les bases d’un commun numérique, s’enrichit des contributions des agents et vise à créer une communauté de praticiens engagés pour l’innovation publique. Les agents sont invités à documenter et qualifier eux-mêmes les cas d'usages d'IA expérimentés, industrialisés ou abonnés par leur collectivité. Un espace de confiance permet aussi l’identification des porteurs, le partage de ressources techniques essentielles telles que les codes sources, les bases de données voire les modèles d'entraînement. Cette démarche contributive favorise ainsi l’inspiration, le partage de savoir-faire, mais surtout la collaboration entre ces différents acteurs. Dans ce cadre, des temps forts seront animés, autour de différentes thématiques tous les 3 mois environ.
 
-- IA et transformation des métiers de la fonction publique territoriale ; nourri par l’élaboration d’études, cet axe vise à identifier les impacts et à encadrer les usages de l’IA afin de s’assurer que l’humain reste au cœur du fonctionnement des collectivités. 
-
-## Collecte et valorisation des usages de l’IA par les collectivités territoriales 
-
-Cette bibliothèque s’inscrit pleinement dans la feuille de route de la commission qui permet de :
-
-1. Recenser et qualifier les cas d’usages de systèmes d’IA dans les collectivités territoriales
-2. Documenter les méthodes et les moyens déployés
-3. Cartographier les acteurs et les solutions ressources
-4. Documenter et partager des ressources techniques (codes, bases de données, modèles d’entraînement, …)
-5. Répondre au besoin de transparence et d’explicabilité des algorithmes déployés au sein des collectivités territoriales
+**Aider aux engagements de transparence et d’éthique des projets IA**
+La bibliothèque d’IA territoriales permet aussi de répondre, en partie, aux impératifs de transparence et d'explicabilité des algorithmes utilisés. En rendant accessibles les projets ayant recours à l’IA, en décrivant les ressources, le fonctionnement et effets de ces solutions, la bibliothèque permet d’adresser des critères de redevabilité. De nombreux territoires déploient aussi des initiatives inspirantes pour cadrer les usages de l’IA (charte, comité de gouvernance, …) qui sont aussi à documenter. En se saisissant de cette bibliothèque, les territoires peuvent s’inscrire dans une démarche d'ouverture et de pédagogie.
 
 ## Méthodologie
 
-Un travail collectif, regroupant l’Ecolab du CGDD et la Banque des Territoires ainsi qu’un noyau d’agents et d’élus de collectivités territoriales, a permis de préciser les besoins et les usages de cette bibliothèque. 
-
-Un premier cahier des charges a été produit en 2023 pour anticiper les usages types et les rôles nécessaires au maintien de cette bibliothèque. Ensemble, nous avons ainsi élaboré au dernier trimestre 2024 un modèle de données visant à structurer la documentation des projets ayant recours à l’IA.
+Un travail collectif, regroupant l’Ecolab du CGDD et la Banque des Territoires ainsi qu’un noyau d’agents et d’élus de collectivités territoriales, a permis de préciser les besoins et les usages de cette bibliothèque. Un premier cahier des charges a été produit en 2023 pour anticiper les usages types et les rôles nécessaires au maintien de cette bibliothèque. Ensemble, nous avons ainsi élaboré au dernier trimestre 2024 un modèle de données visant à structurer la documentation des projets ayant recours à l’IA.
 
 Pour nourrir ce travail, nous avons croisé plusieurs travaux réglementaires mais aussi de recensement de projets d’IA territoriales que nous avons identifiés en France mais aussi à l’international. Aussi, dans une logique de convergence entre les ressources existantes, nous avons pris soin de reprendre des nomenclatures déjà utilisées par nos partenaires, à l’instar des critères d’identification des thèmes de cas d’usages notamment. 
 
@@ -35,12 +26,13 @@ Les cas d’usages documentés s’articulent autour de 6 thématiques principal
 * Gouvernance et socles technologiques
 * Administration et organisation interne
 
-
-En complément de déploiements de services ayant recours à l’IA et d’expérimentations, le sujet de l’IA s’installe avant tout pour les territoires dans les enjeux de gouvernance et d'évaluation de ces usages. Les collectivités territoriales sont nombreuses à développer, au-delà de critères d’évaluation et d’arbitrages techniques du recours à l’IA, des chartes et des stratégies IA/Data, qui viennent outiller les questions éthiques, juridiques et organisationnelles de ces usages. Cette bibliothèque d’IA territoriale permet aussi de les identifier et de les valoriser. 
+## Vous êtes une collectivité territoriale et souhaitez y contribuer ? 
+Nous vous invitons à vous saisir de cet outil pour faire de l’IA un levier de transformation publique en adéquation aux contextes des territoires. 
+Pour accéder à l’ensemble des ressources et être informé des prochains temps collectifs, rendez-vous sur ce formulaire : [https://tally.so/forms/mRk8Qv/](https://tally.so/r/mRk8Qv)
 
 ## A propos des Interconnectés
 
-*Les Interconnectés est la première association nationale de collectivités centrée sur les politiques publiques numériques. Créée en 2009 par Intercommunalités de France et France urbaine, sa mission est d’accompagner les collectivités locales et leurs groupements pour mettre l’innovation et le numérique au service des territoires. Elle est aussi un interlocuteur de référence de l’État. Elle mobilise différents acteurs afin de faire émerger des solutions concrètes fondées sur le partage, l’intelligence collective et la proximité de l’usager.
+*Les Interconnectés est la première association nationale de collectivités dédiée aux politiques publiques numériques. Fondée en 2009 par France urbaine et Intercommunalités de France, l’association via la Commission Numérique commune porte la voix des territoires sur les enjeux numériques au niveau national. Elle forme également les agents via le programme Territoir’Prod et organise des Journée Expert thématiques itinérantes ainsi que le Forum des Interconnectés, rendez-vous national de référence des collectivités et du numérique. L’association a aussi publié récemment différentes ressources dont une bibliothèque nationale d’IA territoriales et des études, autour des enjeux data et IA, à destination des collectivités territoriales : [https://www.interconnectes.com/guides-data-ia/](https://www.interconnectes.com/guides-data-ia/))
 
 ---
 
