@@ -1,1 +1,5 @@
-Bad request: invalid API key
+A,B,C,ready
+1,2,3,True
+1,2,0,False
+0,1,2,False
+0,0,A,False
