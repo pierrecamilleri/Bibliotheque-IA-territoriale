@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-        OUTPUT_FILE="csv/data.csv"
+      OUTPUT_FILE: "csv/data.csv"
 
     steps:
       - name: Checkout repository
