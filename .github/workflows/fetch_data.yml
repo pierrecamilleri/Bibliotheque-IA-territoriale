@@ -18,7 +18,7 @@ jobs:
           OUTPUT_FILE="csv/data.csv"
 
           curl -s -H "Authorization: Bearer ${{ secrets.GRIST_API_KEY }}" \
-            "https://api.getgrist.com/o/interconnectes/api/docs/$GRIST_DOC_ID/download/csv?viewSection=1&tableId=GRIST_TABLE_ID" \
+            "https://api.getgrist.com/o/interconnectes/api/docs/$GRIST_DOC_ID/download/csv?viewSection=1&tableId=$GRIST_TABLE_ID" \
             -o $OUTPUT_FILE
 
       - name: Configure Git
