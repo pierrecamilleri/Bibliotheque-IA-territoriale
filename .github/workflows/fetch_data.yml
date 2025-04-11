@@ -7,6 +7,9 @@ jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
 
+    env:
+        OUTPUT_FILE="csv/data.csv"
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -15,20 +18,19 @@ jobs:
         run: |
           GRIST_DOC_ID="wbaG2XvSt1oumJjvoMVaZt"
           GRIST_TABLE_ID="Table1"
-          OUTPUT_FILE="csv/data.csv"
 
           curl -s -H "Authorization: Bearer ${{ secrets.GRIST_API_KEY }}" \
             "https://api.getgrist.com/o/interconnectes/api/docs/$GRIST_DOC_ID/download/csv?viewSection=1&tableId=$GRIST_TABLE_ID" \
-            -o $OUTPUT_FILE
+            -o "$OUTPUT_FILE"
 
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and Push if Changed
+      - name: Commit and push if changed
         run: |
-          git add $OUTPUT_FILE
+          git add "$OUTPUT_FILE"
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
