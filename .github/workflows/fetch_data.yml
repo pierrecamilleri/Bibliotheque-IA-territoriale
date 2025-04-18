@@ -22,7 +22,7 @@ jobs:
           GRIST_VIEW_SECTION="4"
 
           curl -s -H "Authorization: Bearer ${{ secrets.GRIST_API_KEY }}" \
-            "https://api.getgrist.com/o/interconnectes/api/docs/$GRIST_DOC_ID/download/csv?viewSection=$GRIST_VIEW_SECTION&tableId=GRIST_TABLE_ID" \
+            "https://api.getgrist.com/o/interconnectes/api/docs/$GRIST_DOC_ID/download/csv?viewSection=$GRIST_VIEW_SECTION&tableId=GRIST_TABLE_ID&header=colId" \
             -o "$OUTPUT_FILE"
 
       - name: Configure Git
